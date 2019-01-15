@@ -19,30 +19,6 @@ if (!empty($_POST['email']) && !empty($_POST['name']) && !empty($_POST['phone'])
     include  'auth.php';
     include  'order.php';
 
-    // Запросы из phpmyadmin
-    //CREATE DATABASE mainproject2;
-    //
-    //USE mainproject;
-    //
-    //CREATE TABLE `mainproject2`.`users` (
-    //    `id` INT NOT NULL AUTO_INCREMENT ,
-    //`email` VARCHAR(50) NOT NULL ,
-    //`name` VARCHAR(30) NOT NULL ,
-    //`phone` VARCHAR(20) NOT NULL ,
-    //PRIMARY KEY  (`id`))
-    // ENGINE = InnoDB;
-    //
-    //CREATE TABLE `mainproject2`.`orders` (
-    //    `order_id` INT NOT NULL AUTO_INCREMENT ,
-    //`id_user` INT NOT NULL ,
-    //`address` TEXT NOT NULL ,
-    //`comments` TEXT NOT NULL ,
-    //`change_money` VARCHAR(11) NOT NULL ,
-    //`callback` VARCHAR(11) NOT NULL ,
-    //PRIMARY KEY  (`order_id`))
-    //ENGINE = InnoDB;
-
-
     $host = 'localhost';
     $user = 'mysql';
     $password = 'mysql';
