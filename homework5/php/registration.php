@@ -4,15 +4,6 @@ require_once 'config.php';
 require_once 'fileValidate.php';
 
 
-try {
-    $db = new PDO('mysql:host=' . HOST . ';dbname=' . DBNAME, DBUSER, DBPASSWORD,
-        array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-} catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
-
-
 $stmt = $db->prepare("SELECT COUNT(*) FROM users WHERE login = ?");
 $stmt->execute([$_POST['login']]);
 $count = $stmt->fetch(PDO::FETCH_NUM)[0];
