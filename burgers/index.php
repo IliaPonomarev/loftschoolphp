@@ -8,6 +8,7 @@
     </title>
     <link rel="stylesheet" href="css/vendors.min.css">
     <link rel="stylesheet" href="css/main.min.css">
+      <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
     <div class="wrapper">
@@ -432,12 +433,14 @@
                         <div class="order__radio-title">Не перезванивать</div>
                       </label>
                     </div>
+                      <div class="g-recaptcha" data-sitekey="6LcqnI0UAAAAAGa3q8t_45oBdYhZG-8tapFbahYz"></div>
                     <div class="order__form-row">
                       <input class="order__form-button" name="" type="submit" value="Заказать">
                       <input class="order__form-button order__form-button_reset" name="" type="reset" value="Очистить">
                     </div>
                   </div>
                 </div>
+
               </form>
             </div>
           </div>
