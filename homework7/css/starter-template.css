@@ -1,0 +1,61 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.form-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    width: 100%;
+}
+.form-horizontal {
+    width:37%;
+}
+
+.navbar-inverse .navbar-nav>li>a.active {
+    background: black;
+    color: #fff;
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+}
+.message-new{
+    position: absolute;
+    left;
+    top: -110%;
+}
+#message{
+    color: red;
+    font-size: 14px;
+}
+#message2{
+    color: green;
+    font-size: 14px;
+}
+
+
+.order__create{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+th{
+    padding:15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+td{
+    padding:15px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
